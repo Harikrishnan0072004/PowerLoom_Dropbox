@@ -32,7 +32,7 @@
 #include <EEPROM.h>
 #include <stddef.h>
 #include <string.h>
-
+#define version 1 
 /* ============================ HARDWARE ============================== */
 /* Mapped to the TilT Drop Box carrier board, rev 1.0.
  *   GP19 = SEN_1, GP18 = SEN_2 -> 817B optocoupler field inputs.
