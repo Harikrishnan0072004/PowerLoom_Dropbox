@@ -1251,6 +1251,7 @@ void loop() {
 
         current_pick_index = wrap_pick(current_pick_index + 1);
         picks_woven++;
+        mark_run_state_dirty(); 
         Serial.printf("Pick complete | %d/%d\n",
                       current_pick_index + 1, total_picks);
 
